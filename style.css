@@ -26,6 +26,7 @@ h2 {
 
 .flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .top-banner {
@@ -40,4 +41,41 @@ h2 {
     padding: 10px 40px;
     color: white;
     font-weight: 700;
+}
+
+.dream-bg {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-item {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px 15px;
+}
+
+#experience-full-stack-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+
+#experience-web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, orange);
+    border-image-slice: 1;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 80%;
+}
+
+footer p {
+    text-align: center;
 }
